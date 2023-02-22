@@ -2,10 +2,10 @@ import React from "react";
 
 function Logos() {
   return (
-    <div className=" bottom-6 bg-black px-96 py-5 sm:static ">
-      <div className="flex flex-row items-center ">
+    <div className=" bottom-6 left-1/2 bg-black px-96 py-4 sm:x-1/2 ">
+      <div className="flex flex-row items-center sm:items-center ">
         <div className="flex flex-col px-40 bg-tertiary "></div>
-        <div className="flex gap-4 text-xl px-28 sm:flex-row ">
+        <div className="flex gap-4 text-xl px-48 sm:flex  ">
           
 
           <a href="https://www.linkedin.com/in/sagar-adhikari-43771a1ab">

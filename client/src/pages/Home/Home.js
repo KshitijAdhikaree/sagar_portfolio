@@ -11,7 +11,7 @@ const Home = () => {
         >
           
           <div className="flex flex-col px-16 py-16 w-3/4 sm:px-3 sm:py-2 sm:mt-4   ">
-            <h1 className=" text-6xl text-secondary sm:text-5xl">Sagar Adhikari </h1>
+            <h1 className=" text-7xl sm:text-3xl text-secondary font-semibold">Sagar Adhikari </h1>
 
             <div className=" text-white text-justify mt-10 text-xl sm:text-base sm:px-3 ">
               <p>
