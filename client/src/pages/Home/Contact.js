@@ -28,8 +28,8 @@ const Contact = () => {
           style={{ backgroundImage: `url(${image})` }}
         >
           <div className="flex flex-auto">
-            <div className="px-32 py-10 w-3/4">
-              <h2 className="text-2xl font-bold mb-4 text-white">
+            <div className="px-40 py-10 w-3/4">
+              <h2 className="text-4xl font-bold text-secondary text-center">
                 Send Us a Message
               </h2>
               <form onSubmit={handleSubmit}>
@@ -85,7 +85,7 @@ const Contact = () => {
                   />
                 </div>
                 <button
-                  className="bg-secondary text-white p-2 rounded hover:bg-white hover:text-black"
+                  className="border-2 border-secondary text-white px-4 py-2 rounded-lg hover:bg-white hover:text-black"
                   type="submit"
                 >
                   Submit
