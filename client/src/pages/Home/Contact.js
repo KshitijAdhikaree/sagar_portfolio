@@ -97,9 +97,9 @@ const Contact = () => {
                 Contact Information
               </h2>
               <ul className="flex flex-col text-white text-base px-6 gap-3 py-10">
-                <li>Email: sagaradhikaree@gmail.com</li>
-                <li>Location: Sinamangal, Kathmandu</li>
-                <li>Hello</li>
+                <dd>Email: sagaradhikaree@gmail.com</dd>
+                <dd>Location: Sinamangal, Kathmandu</dd>
+                <dd>Hello</dd>
               </ul>
             </div>
           </div>
