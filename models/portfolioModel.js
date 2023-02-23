@@ -24,10 +24,7 @@ const homeSchema = new mongoose.Schema({
 });
 
 const aboutSchema = new mongoose.Schema({
-  lottieURL: {
-    type: String,
-    required: true,
-  },
+  
   description1: {
     type: String,
     required: true,

@@ -33,9 +33,7 @@ const Home = () => {
                 consequatur. Qui reiciendis nemo voluptas, minima debitis nihil?
               </p>
             </div>
-            <a href="">
-              <i></i>
-            </a>
+            
           </div>
         </div>
       </div>

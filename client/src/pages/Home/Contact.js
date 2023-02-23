@@ -103,10 +103,18 @@ const Contact = () => {
                 ipsum dolor sit amet consectetur adipisicing elit. A soluta modi
                 sed fuga aliquid nemo quis perspiciatis numquam tempora
                 sapiente, repudiandae alias omnis cum veniam, officia voluptatum
-                harum explicabo assumenda.
+                harum explicabo assumenda. 
+                </p>
+                <p className="mb-4 text-white text-base text-justify px-10">
+                Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Nihil amet non assumenda
+                doloremque nisi omnis. Dolorem consectetur veniam est totam
+                quaerat autem, veritatis ab cum reiciendis, velit, iusto
+                suscipit quis!
+                
               </p>
               <div className=" mt-10">
-                <h2 className="text-2xl  text-secondary font-bold mb-4">
+                <h2 className="text-2xl  text-tertiary font-bold mb-4">
                   Hello
                 </h2>
                 <p className="mb-4 text-white text-justify text-base px-10">
@@ -115,8 +123,16 @@ const Contact = () => {
                   neque. Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Provident fuga laboriosam laborum voluptas sit debitis
                   libero, expedita officia neque perspiciatis hic deserunt
-                  dolores, fugit a sint deleniti? Quam, magnam corrupti!
-                </p>
+                  dolores, fugit a sint deleniti? Quam, magnam corrupti! 
+                  </p>
+                  <p className="mb-4 text-white text-justify text-base px-10">
+                  Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Quas
+                  repudiandae, velit optio libero voluptate dolor ea dolore
+                  rerum inventore, voluptates voluptas mollitia amet ipsam animi
+                  maxime fugit impedit, iste perspiciatis!
+                  </p>
+                
               </div>
             </div>
           </div>
