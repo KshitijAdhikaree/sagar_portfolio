@@ -14,7 +14,7 @@ const Home = () => {
             Documents
           </h1>
 
-          <div className=" grid grid-cols-4 px-40 gap-10 sm:flex-row sm:place-items-baseline sm:text-xs sm:px-8 sm:gap-8">
+          <div className=" grid grid-cols-4 px-40 gap-20 sm:flex-row sm:place-items-baseline sm:text-xs sm:px-8 sm:gap-8">
             {pdfFiles.map((pdfFile, index) => (
               <div key={index} className="">
                 <img
