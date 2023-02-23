@@ -96,44 +96,11 @@ const Contact = () => {
               <h2 className="text-2xl  text-secondary font-bold mb-4">
                 Contact Information
               </h2>
-              <p className="mb-4 text-white text-base text-justify px-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                malesuada auctor elit,id placerat libero blandit non. Nam
-                malesuada nisl at nibh blandit, ut pulvinar dui facilisis. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. A soluta modi
-                sed fuga aliquid nemo quis perspiciatis numquam tempora
-                sapiente, repudiandae alias omnis cum veniam, officia voluptatum
-                harum explicabo assumenda. 
-                </p>
-                <p className="mb-4 text-white text-base text-justify px-10">
-                Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Nihil amet non assumenda
-                doloremque nisi omnis. Dolorem consectetur veniam est totam
-                quaerat autem, veritatis ab cum reiciendis, velit, iusto
-                suscipit quis!
-                
-              </p>
-              <div className=" mt-10">
-                <h2 className="text-2xl  text-tertiary font-bold mb-4">
-                  Hello
-                </h2>
-                <p className="mb-4 text-white text-justify text-base px-10">
-                  Sed elementum, mi et commodo hendrerit, ligula magna bibendum
-                  quam, ac blandit diam nibh et sem. Integer sit amet laoreet
-                  neque. Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit. Provident fuga laboriosam laborum voluptas sit debitis
-                  libero, expedita officia neque perspiciatis hic deserunt
-                  dolores, fugit a sint deleniti? Quam, magnam corrupti! 
-                  </p>
-                  <p className="mb-4 text-white text-justify text-base px-10">
-                  Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Quas
-                  repudiandae, velit optio libero voluptate dolor ea dolore
-                  rerum inventore, voluptates voluptas mollitia amet ipsam animi
-                  maxime fugit impedit, iste perspiciatis!
-                  </p>
-                
-              </div>
+              <ul className="flex flex-col text-white text-base px-6 gap-3 py-10">
+                <li>Email: sagaradhikaree@gmail.com</li>
+                <li>Location: Sinamangal, Kathmandu</li>
+                <li>Hello</li>
+              </ul>
             </div>
           </div>
         </div>
