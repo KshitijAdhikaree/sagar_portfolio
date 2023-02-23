@@ -10,19 +10,19 @@ const Home = () => {
           className="h-screen w-screen bg-cover bg-center "
           style={{ backgroundImage: `url(${bg_image})` }}
         >
-          <h1 className="text-4xl font-bold text-secondary text-center py-20">
+          <h1 className="text-4xl font-bold text-secondary text-center py-20 sm:py-4 sm:text-3xl">
             Documents
           </h1>
 
-          <div className=" grid grid-cols-4 gap-12 px-40  ">
+          <div className=" grid grid-cols-4 px-40 gap-10 sm:flex-row sm:place-items-baseline sm:text-xs sm:px-8 sm:gap-8">
             {pdfFiles.map((pdfFile, index) => (
               <div key={index} className="">
                 <img
                   src="https://img.icons8.com/officel/256/pdf.png"
                   alt="PDF File Icon"
-                  className="h-12 w-12 mb-4"
+                  className="h-12 w-12 mb-4 sm:h-6 sm:w-6 sm:mb-2"
                 />
-                <h2 className="text-xl font-bold text-secondary">
+                <h2 className="text-xl font-bold text-secondary sm:text-base">
                   {pdfFile.name}
                 </h2>
 

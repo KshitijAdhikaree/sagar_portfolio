@@ -9,10 +9,10 @@ function About() {
           className="h-screen w-screen bg-cover bg-center"
           style={{ backgroundImage: `url(${image})` }}
         >
-          <div className="flex flex-col items-center mt-10">
-            <div className="flex px-40 py-10">
+          <div className="flex ">
+            <div className="flex flex-col items-center mt-10 px-40 py-10 sm:py-4">
               <div className="flex flex-col justify-center">
-                <h2 className="text-4xl font-bold text-secondary text-center">
+                <h2 className="text-4xl font-bold text-secondary text-center sm:text-3xl">
                   About Me
                 </h2>
                 <div className="flex flex-row gap-6 sm:flex-col">

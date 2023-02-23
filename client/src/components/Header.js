@@ -2,9 +2,9 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="bg-primary p-4 flex items-center justify-between">
+    <nav className="bg-primary p-4 flex items-center justify-between ">
       <a href="/home" className=" text-white px-2 ">
-        <img src="logo.png" alt="Company Logo" className="h-12" />
+        <img src="logo.png" alt="Company Logo" className="h-12 sm:h-6" />
       </a>
       <div className="flex flex-row gap-3 sm:flex-row sm:text-xs sm:gap-1">
         <a

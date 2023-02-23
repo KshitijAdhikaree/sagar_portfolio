@@ -5,7 +5,7 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: "Enter your Name",
     email: "abcd@efgh.com",
-    message: "Write your msg here!!",
+    message: "Write your message here!",
   });
 
   const handleInputChange = (event) => {
@@ -28,12 +28,12 @@ const Contact = () => {
           style={{ backgroundImage: `url(${image})` }}
         >
           <div className="flex flex-auto">
-            <div className="px-40 py-10 w-3/4">
-              <h2 className="text-4xl font-bold text-secondary text-center">
+            <div className="px-40 py-10 w-3/4 sm:px-8 ">
+              <h2 className="text-4xl font-bold text-secondary text-center sm:text-3xl ">
                 Send Us a Message
               </h2>
               <form onSubmit={handleSubmit}>
-                <div className="mb-4">
+                <div className="mb-4 sm:mb-2">
                   <label
                     className="block text-secondary text-base font-medium mb-2"
                     htmlFor="name"
@@ -50,7 +50,7 @@ const Contact = () => {
                     required
                   />
                 </div>
-                <div className="mb-4">
+                <div className="mb-4 sm:mb-2">
                   <label
                     className="block text-secondary text-base font-medium mb-2"
                     htmlFor="email"
@@ -67,7 +67,7 @@ const Contact = () => {
                     required
                   />
                 </div>
-                <div className="mb-4">
+                <div className="mb-4 sm:mb-2">
                   <label
                     className="block text-secondary text-base font-medium mb-2 rounded-full"
                     htmlFor="message"
@@ -75,7 +75,7 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
-                    className="w-full rounded-lg text-white border-gray-400 p-2 bg-black"
+                    className="w-full rounded-lg text-white border-gray-400 p-2 bg-black sm:h-40"
                     id="message"
                     name="message"
                     rows="5"
