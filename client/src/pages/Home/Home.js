@@ -9,9 +9,10 @@ const Home = () => {
           className="h-screen w-screen bg-cover bg-center "
           style={{ backgroundImage: `url(${bg_image})` }}
         >
-          
           <div className="flex flex-col px-16 py-16 w-3/4 sm:px-3 sm:py-2 sm:mt-4   ">
-            <h1 className=" text-7xl sm:text-3xl text-secondary font-semibold">Sagar Adhikari </h1>
+            <h1 className=" text-7xl sm:text-3xl text-secondary font-semibold">
+              Sagar Adhikari{" "}
+            </h1>
 
             <div className=" text-white text-justify mt-10 text-xl sm:text-base sm:px-3 ">
               <p>
@@ -33,7 +34,13 @@ const Home = () => {
                 consequatur. Qui reiciendis nemo voluptas, minima debitis nihil?
               </p>
             </div>
-            
+            <div className=" px-30 text-xl py-6 bg-">
+              <a href="/contact">
+              <button className="border-2 border-tertiary bg-white text-black px-8 py-3 rounded-xl hover:bg-secondary hover:text-white">
+                Get Started
+              </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
