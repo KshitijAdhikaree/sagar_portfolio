@@ -1,10 +1,7 @@
 const mongoose = require("mongoose");
 
 const homeSchema = new mongoose.Schema({
-  welcomeText: {
-    type: String,
-    required: true,
-  },
+  
   firstName: {
     type: String,
     required: true,
@@ -13,17 +10,6 @@ const homeSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  caption: {
-    type: String,
-    required: true,
-  },
-  description: {
-    type: String,
-    required: true,
-  },
-});
-
-const aboutSchema = new mongoose.Schema({
   
   description1: {
     type: String,
@@ -33,15 +19,35 @@ const aboutSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  skills: {
-    type: Array,
+  description3: {
+    type: String,
     required: true,
   },
 });
 
-const documentsSchema = new mongoose.Schema({
-  title: {
+const aboutSchema = new mongoose.Schema({
+  image: {
     type: String,
+    required: true,
+  },
+  description4: {
+    type: String,
+    required: true,
+  },
+  description5: {
+    type: String,
+    required: true,
+  },
+  pdf:{
+    type: File,
+    required: true,
+  }
+  
+});
+
+const documentsSchema = new mongoose.Schema({
+  pdf: {
+    type: File,
     required: true,
   },
   description: {
@@ -63,7 +69,7 @@ const contactSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  gender: {
+  contact_me: {
     type: String,
     required: true,
   },
@@ -71,18 +77,11 @@ const contactSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  mobile: {
+  location: {
     type: String,
     required: true,
   },
-  age: {
-    type: String,
-    required: true,
-  },
-  address: {
-    type: String,
-    required: true,
-  },
+  
 });
 
 module.exports = {
