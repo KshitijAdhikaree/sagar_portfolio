@@ -18,7 +18,7 @@ import Document from "./pages/Home/Document";
 import Contact from "./pages/Home/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Logos from "./pages/Home/Logos";
+import Logos from "./components/Logos";
 
 function App() {
   const { loading, portfolioData, reloadData } = useSelector(

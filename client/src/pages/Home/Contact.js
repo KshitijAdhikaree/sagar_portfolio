@@ -27,8 +27,8 @@ const Contact = () => {
           className="h-screen w-screen bg-cover bg-center"
           style={{ backgroundImage: `url(${image})` }}
         >
-          <div className="flex flex- md:flex-row">
-            <div className=" px-10 py-10 w-1/2">
+          <div className="flex flex-auto">
+            <div className="px-32 py-10 w-3/4">
               <h2 className="text-2xl font-bold mb-4 text-white">
                 Send Us a Message
               </h2>
@@ -41,7 +41,7 @@ const Contact = () => {
                     Name
                   </label>
                   <input
-                    className="w-full border border-gray-400 p-2"
+                    className="w-full rounded-lg text-white border-gray-400 p-2 bg-black"
                     type="text"
                     id="name"
                     name="name"
@@ -58,7 +58,7 @@ const Contact = () => {
                     Email
                   </label>
                   <input
-                    className="w-full border border-gray-400 p-2"
+                    className="w-full rounded-lg text-white border-gray-400 p-2 bg-black"
                     type="email"
                     id="email"
                     name="email"
@@ -75,7 +75,7 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
-                    className="w-full border border-gray-400 p-2"
+                    className="w-full rounded-lg text-white border-gray-400 p-2 bg-black"
                     id="message"
                     name="message"
                     rows="5"
@@ -85,22 +85,12 @@ const Contact = () => {
                   />
                 </div>
                 <button
-                  className="bg-white text-primary p-2 rounded hover:bg-secondary"
+                  className="bg-secondary text-white p-2 rounded hover:bg-white hover:text-black"
                   type="submit"
                 >
                   Submit
                 </button>
               </form>
-            </div>
-            <div className="w-1/2 mt-10">
-              <h2 className="text-2xl  text-secondary font-bold mb-4">
-                Contact Information
-              </h2>
-              <ul className="flex flex-col text-white text-base px-6 gap-3 py-10">
-                <dd>Email: sagaradhikaree@gmail.com</dd>
-                <dd>Location: Sinamangal, Kathmandu</dd>
-                <dd>Hello</dd>
-              </ul>
             </div>
           </div>
         </div>
