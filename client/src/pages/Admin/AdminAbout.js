@@ -39,8 +39,8 @@ function AdminAbout() {
           skills: portfolioData.about.skills.join(" , "),
         }}
       >
-        <Form.Item name="lottieURL" label="Lottie URL">
-          <input placeholder="Lottie URL" />
+        <Form.Item name="user_photo" label="User Photo">
+          <input placeholder="Photo URL" />
         </Form.Item>
 
         <Form.Item name="description1" label="Description1">

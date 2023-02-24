@@ -28,7 +28,7 @@ const Contact = () => {
           style={{ backgroundImage: `url(${image})` }}
         >
           <div className="flex flex-auto">
-            <div className="px-40 py-10 w-3/4 sm:px-8 ">
+            <div className="px-40 py-20 w-3/4 sm:px-8 ">
               <h2 className="text-4xl font-bold text-secondary text-center sm:text-3xl ">
                 Send Us a Message
               </h2>

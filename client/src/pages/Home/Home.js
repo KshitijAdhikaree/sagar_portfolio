@@ -36,7 +36,7 @@ const Home = () => {
           <div className=" px-40 text-xl py-6 bg-">
             <a href="/contact">
               <button className="border-2 border-tertiary bg-transparent text-white px-8 py-3 rounded-xl hover:bg-secondary hover:text-black sm:px-4">
-                Get Started
+                Connect
               </button>
             </a>
           </div>
