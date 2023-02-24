@@ -136,7 +136,7 @@ function AdminDocuments() {
             <Form.Item name="image" label="Image URL">
               <input placeholder="Image" />
             </Form.Item>
-            <Form.Item name="description" label="Description">
+            <Form.Item name="description6" label="Description6">
               <textarea placeholder="Description" />
             </Form.Item>
             <Form.Item name="link" label="Link">

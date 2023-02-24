@@ -39,7 +39,7 @@ const aboutSchema = new mongoose.Schema({
     required: true,
   },
   pdf:{
-    type: File,
+    type: file,
     required: true,
   }
   
@@ -47,7 +47,7 @@ const aboutSchema = new mongoose.Schema({
 
 const documentsSchema = new mongoose.Schema({
   pdf: {
-    type: File,
+    type: file,
     required: true,
   },
   description: {

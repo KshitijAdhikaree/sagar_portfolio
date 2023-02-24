@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Input  } from "antd";
+import { Form, Input } from "antd";
 import { useDispatch, useSelector } from "react-redux";
 import { ShowLoading, HideLoading } from "../../redux/rootSlice";
 import axios from "axios";
@@ -10,8 +10,6 @@ function AdminAbout() {
   const { portfolioData } = useSelector((state) => state.root);
   const onFinish = async (values) => {
     try {
-      const tempSkills = values.skills.split(",");
-      values.skills = tempSkills;
       dispatch(ShowLoading());
       const response = await axios.post("/api/portfolio/update-about", {
         ...values,
@@ -42,18 +40,17 @@ function AdminAbout() {
         <Form.Item name="user_photo" label="User Photo">
           <input placeholder="Photo URL" />
         </Form.Item>
-
-        <Form.Item name="description1" label="Description1">
-          <textarea placeholder="Description1" />
+        <Form.Item name="user_resume" label="User Resume">
+          <input placeholder="Resume URL" />
+        </Form.Item>
+        <Form.Item name="description4" label="Description4">
+          <textarea placeholder="Description4" />
         </Form.Item>
 
-        <Form.Item name="description2" label="Description2">
-          <textarea placeholder="Description2" />
+        <Form.Item name="description5" label="Description5">
+          <textarea placeholder="Description5" />
         </Form.Item>
 
-        <Form.Item name="skills" label="Skills">
-          <textarea placeholder="Skills" />
-        </Form.Item>
         <div className="flex justify-end w-full" label="Welcome Text">
           <button className="px-10 py-2 bg-primary text-white" type="submit">
             SAVE
