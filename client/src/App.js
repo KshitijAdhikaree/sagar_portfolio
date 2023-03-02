@@ -14,7 +14,7 @@ import {
 import Admin from "./pages/Admin";
 import Login from "./pages/Admin/Login";
 import About from "./pages/Home/About";
-import Document from "./pages/Home/Document";
+import Publications from "./pages/Home/Publications";
 import Contact from "./pages/Home/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -58,7 +58,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/about" element={<About />} />
-          <Route exact path="/documents" element={<Document />} />
+          <Route exact path="/publications" element={<Publications />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/admin" element={<Admin />} />
           <Route exact path="/admin-login" element={<Login />} />

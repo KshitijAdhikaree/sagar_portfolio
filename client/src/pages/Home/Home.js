@@ -6,8 +6,8 @@ const Home = () => {
     <div>
       <div className="flex w-full items-center sm:flex-col">
         <div
-          className="h-screen w-screen bg-cover bg-center "
-          style={{ backgroundImage: `url(${bg_image})` }}
+          className="bg-gray-700 "
+          
         >
           <h1 className=" text-7xl px-40 py-5 mt-10 sm:text-4xl sm:mt-5 sm:px-6 text-secondary font-semibold">
             Sagar Adhikari
@@ -33,7 +33,7 @@ const Home = () => {
               consequatur. Qui reiciendis nemo voluptas, minima debitis nihil?
             </p>
           </div>
-          <div className=" px-40 text-xl py-6 bg-">
+          <div className=" px-40 text-xl py-6 sm:text-center">
             <a href="/contact">
               <button className="border-2 border-tertiary bg-transparent text-white px-8 py-3 rounded-xl hover:bg-secondary hover:text-black sm:px-4">
                 Connect

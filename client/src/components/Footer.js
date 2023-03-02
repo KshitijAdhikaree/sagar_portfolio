@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="py-10 bg-primary">
+    <div className="py-10 bg-gray-700">
       <div className="h-[1px] w-full bg-secondary opacity-50"></div>
 
       <div className="flex items-center justify-center flex-col mt-10  opacity-80 ">

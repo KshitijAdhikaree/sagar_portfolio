@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="bg-primary p-4 flex items-center justify-between ">
+    <nav className="bg-gray-700 p-4 flex items-center justify-between ">
       <a href="/home" className=" text-white px-2 ">
         <img src="logo.png" alt="Company Logo" className="h-12 sm:h-6" />
       </a>
@@ -20,10 +20,10 @@ const Header = () => {
           About
         </a>
         <a
-          href="/documents"
+          href="/publications"
           className="border-2 border-secondary text-white px-4 py-2 rounded-lg hover:bg-white hover:text-black"
         >
-          Documents
+          Publications
         </a>
         <a
           href="/contact"

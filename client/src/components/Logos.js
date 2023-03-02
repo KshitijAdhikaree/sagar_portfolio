@@ -3,7 +3,7 @@ import React from "react";
 function Logos() {
   return (
     
-      <div className="flex flex-row h-12 bg-black gap-4 text-xl place-content-center">
+      <div className="flex flex-row h-12 bg-gray-700 gap-4 text-xl place-content-center">
         <a href="https://www.linkedin.com/in/sagar-adhikari-43771a1ab">
             <i class="ri-linkedin-fill text-gray-400 hover:text-secondary"></i>
           </a>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import image from "../pics/homepaper.jpg";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -21,14 +20,11 @@ const Contact = () => {
     console.log(formData);
   };
   return (
-    <div>
-      <div className="flex w-full items-center sm:flex-col">
-        <div
-          className="h-screen w-screen bg-cover bg-center"
-          style={{ backgroundImage: `url(${image})` }}
-        >
+    <div className="flex justify-center">
+      <div className="bg-gray-700 w-full sm:flex-col">
+        <div className="">
           <div className="flex flex-auto">
-            <div className="px-40 py-20 w-3/4 sm:px-8 ">
+            <div className="px-40 py-20 w-3/4 sm:px-8 sm:py-10 ">
               <h2 className="text-4xl font-bold text-secondary text-center sm:text-3xl ">
                 Send Us a Message
               </h2>
